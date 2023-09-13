@@ -4,6 +4,18 @@
 
 # Deep Q-Network (DQN)
 
+### Install Dependencies
+Use a conda env:
+```
+conda env create -f .\environment.yaml
+```
+
+Update an existing env after changes on environment.yaml:
+```
+conda activate pytorch-dqn
+conda env update -f .\environment.yaml --prune
+```
+
 ### Instructions
 
 In this exercise, you will implement Deep Q-Learning to solve OpenAI Gym's LunarLander environment.  To begin, navigate to the `exercise/` folder, and follow the instructions in `Deep_Q_Network.ipynb`.
